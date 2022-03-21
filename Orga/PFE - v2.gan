@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantt Projet A3 - Nageur à câbles" company="" webLink="http://" view-date="2021-10-18" view-index="0" gantt-divider-location="474" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+    <description>
+        <![CDATA[Organisation du projet nageur à câbles, projet de fin d'études de Victor Macé, Louis Bailly, Jérémy Roques et Antoine Vié]]>
+    </description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="217" order="0"/>
+        <field id="tpd4" name="Date de début" width="127" order="1"/>
+        <field id="tpd5" name="Date de fin" width="126" order="2"/>
+        <timeline>
+            <![CDATA[47,8]]>
+        </timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Dessin, Choix et Dimensionnement de la mécanique" color="#8cb6ce" meeting="false" start="2021-11-02" duration="6" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="CAO, Validation, Impression et Commande matériel" color="#8cb6ce" meeting="false" project="true" start="2021-11-08" duration="28" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <task id="11" name="CAO et Validation" color="#8cb6ce" meeting="false" start="2021-11-08" duration="7" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Impression et Commande matériel" color="#8cb6ce" meeting="false" start="2021-11-15" duration="21" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="8" name="Validation des choix avec tuteur" color="#8cb6ce" meeting="true" start="2021-11-08" duration="0" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="Montage et Proof of concept" color="#8cb6ce" meeting="false" start="2021-12-06" duration="50" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <task id="32" name="Montage" color="#8cb6ce" meeting="false" start="2022-01-14" duration="3" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Proof of concept" color="#8cb6ce" meeting="false" start="2021-12-06" duration="50" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <task id="40" name="Simulation" color="#8cb6ce" meeting="false" start="2021-12-06" duration="5" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                    <depend id="41" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="41" name="Test" color="#8cb6ce" meeting="false" start="2022-01-17" duration="4" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" name="Validation" color="#8cb6ce" meeting="false" start="2022-01-21" duration="4" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="21" name="Modèle à moteurs" color="#8cb6ce" meeting="false" start="2021-12-06" duration="70" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <depend id="101" type="2" difference="0" hardness="Strong"/>
+            <task id="47" name="Montage électronique" color="#8cb6ce" meeting="false" start="2022-01-14" duration="3" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" name="Développement loi de commande" color="#8cb6ce" meeting="false" start="2021-12-06" duration="14" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" name="Développement code et Test" color="#8cb6ce" meeting="false" start="2022-01-17" duration="10" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Système mécanique" color="#8cb6ce" meeting="false" start="2021-12-06" duration="14" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+                <task id="57" name="Système tendeur câbles" color="#8cb6ce" meeting="false" start="2021-12-06" duration="10" complete="0" thirdDate="2021-12-05" thirdDate-constraint="0" expand="true"/>
+                <task id="58" name="Réducteur" color="#8cb6ce" meeting="false" start="2021-12-06" duration="14" complete="0" thirdDate="2021-12-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="61" name="Montage complet" color="#8cb6ce" meeting="false" start="2022-01-27" duration="7" complete="0" thirdDate="2021-12-04" thirdDate-constraint="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" name="Test" color="#8cb6ce" meeting="false" start="2022-02-03" duration="7" complete="0" thirdDate="2021-12-04" thirdDate-constraint="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" name="Validation" color="#8cb6ce" meeting="false" start="2022-02-10" duration="4" complete="0" thirdDate="2021-12-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="26" name="Mise à l'eau" color="#000000" meeting="false" start="2022-02-14" duration="17" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <task id="101" name="CAO coque étanche" color="#8cb6ce" meeting="false" start="2022-02-14" duration="7" complete="0" thirdDate="2022-01-06" thirdDate-constraint="0" expand="true">
+                <depend id="102" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="102" name="Impression coque étanche" color="#8cb6ce" meeting="false" start="2022-02-21" duration="2" complete="0" thirdDate="2022-01-06" thirdDate-constraint="0" expand="true">
+                <depend id="131" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="131" name="Test" color="#8cb6ce" meeting="false" start="2022-02-23" duration="4" complete="0" thirdDate="2022-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="132" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="132" name="Validation" color="#8cb6ce" meeting="false" start="2022-02-27" duration="4" complete="0" thirdDate="2022-01-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="141" name="Vacances Noël" color="#8cb6ce" meeting="false" start="2021-12-20" duration="14" complete="0" thirdDate="2021-11-07" thirdDate-constraint="0" expand="true">
+            <depend id="47" type="2" difference="0" hardness="Rubber"/>
+            <depend id="61" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="170" name="Arrivée Matériel" color="#8cb6ce" meeting="true" start="2022-01-14" duration="0" complete="0" thirdDate="2021-11-23" thirdDate-constraint="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+            <depend id="47" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

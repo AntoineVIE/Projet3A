@@ -1,0 +1,26 @@
+[Gantt]
+- Principale évolution dans les Gantts est la parallélisation des tâches, pour se libérer des 
+zones tampons en cas de problèmes inopinés.
+- Des tâches qui d'un point de vue système devrait être réalisée à la suite peuvent être
+en réalité avancée afin de ne pas perdre de temps en cas de point bloquant.
+
+[Lois de commande]
+- Durée de 7 jours pour pouvoir les réaliser et les tester avec optimisation des paramètres
+
+[Conception et impression système spino-dorsal]
+- Environ un mois afin de bien comprendre le système (tenségrité), de le concevoir par CAO et de l'imprimer.
+
+[Conception enrouleur]
+- Pas fini car pas testé
+
+[Conception Boitier moteur et électronique]
+- Pas fini car pas testé
+
+[Conception système poutre]
+- Environ 2 semaines
+
+[Dimensionnement élec]
+- Environ 1 semaine afin de mettre en équation le système et de savoir le couple maximal requis
+
+[Budget]
+- Budget maximal de 500€, budget aujourd'hui 197.52€
