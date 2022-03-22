@@ -1,0 +1,12 @@
+[Vérification de l'ondulation du robot]
+- Caméra placée au dessus du robot afin de pouvoir visualiser et valider sur un logiciel la fréquence 
+et l'amplitude d'oscillations du robot
+
+[Vérification de la vitesse du robot]
+- Même système que pour la vérification de l'ondulation. 
+
+[Vérification de la tension des câbles]
+- Tensiomètre (probablement déjà présent à l'école)
+
+[Vérification Buckling]
+- Application d'une force supérieure à celle maximale requise dans l'eau et vérification de l'ondulation.
